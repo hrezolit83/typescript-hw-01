@@ -1,3 +1,3 @@
-export function merge(objA: object, objB: object) {
+export function merge<T, U>(objA: T, objB: U) {
   return Object.assign(objA, objB);
 }
